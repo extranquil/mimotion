@@ -76,8 +76,8 @@ def getBeijinTime():
         random_number = random.random()
         min_ratio = 1 + (random_number / 4)
         max_ratio = 1 + (random_number / 2)
-        min_1 = 9000 * min_ratio
-        max_1 = 9000 * max_ratio
+        min_1 = 18000 * min_ratio
+        max_1 = 18000 * max_ratio
         min_1 = int(K * min_1)
         max_1 = int(K * max_1)
     else:
